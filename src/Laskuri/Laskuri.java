@@ -38,5 +38,10 @@ public class Laskuri{
 	public String toString(){
 		return "Lukema " + this.tapahtumia;
 	}
+        
+        public static void main(String[] args){
+            Laskuri laskurini = new Laskuri(5);
+            System.out.println(laskurini.lukema());
+        }
 
 }
